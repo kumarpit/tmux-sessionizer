@@ -214,7 +214,7 @@ impl<'a> Picker<'a> {
         };
 
         let table = List::new(matches)
-            .highlight_style(colors.highlight_style())
+            //.highlight_style(colors.highlight_style())
             .direction(ListDirection::BottomToTop)
             .highlight_spacing(HighlightSpacing::Always)
             .highlight_symbol("> ")
